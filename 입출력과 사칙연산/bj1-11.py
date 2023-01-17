@@ -1,8 +1,10 @@
+#곱셈
 A=int(input())
 B=int(input())
 a=A*((B%100)%10)
 b=A*((B%100)//10)
-c=A*(B-(B%100)%10-(B%100))
+c=A*(B//100)
 print(a)
 print(b)
 print(c)
+print(A*B)

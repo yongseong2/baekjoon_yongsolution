@@ -1,8 +1,8 @@
-nlist=[]
+N = 10
+lst = []
+for i in range(N):
+    num = int(input())
+    lst.append(num%42)
 
-for x in range(10):
-    N=int(input())
-    nlist.append(N%42)
-
-nset=set(nlist)
-print(len(nset))
+lst = set(lst)
+print(len(lst))
